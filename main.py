@@ -40,6 +40,3 @@ def main():
 
 if __name__ == "__main__":
     app = main()
-
-# # Create the ASGI app instance for uvicorn
-# app = main()
