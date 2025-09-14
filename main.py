@@ -38,5 +38,8 @@ def main():
     return mcp.streamable_http_app()
 
 
+# Create the ASGI app instance for uvicorn
+app = main()
+
 if __name__ == "__main__":
-    app = main()
+    app  # Use the app if running directly
